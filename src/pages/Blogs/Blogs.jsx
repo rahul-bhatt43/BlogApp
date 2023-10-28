@@ -38,7 +38,7 @@ const Blogs = () => {
         if (authdata && authdata.isAuth) {
             setAuthentic(authdata.isAuth);
             if (auth.currentUser && auth.currentUser.uid) {
-                // Your code that uses auth.currentUser.uid
+
                 setuserUid(auth.currentUser.uid);
             }
         }
