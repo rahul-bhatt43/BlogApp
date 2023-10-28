@@ -1,8 +1,17 @@
-# React + Vite
+# LifeLogs Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **LifeLogs**, a blogging website that I have been working on. LifeLogs is a personal project that I have built using various technologies and libraries. Here's some information about it:
 
-Currently, two official plugins are available:
+- **Website**: [LifeLogs](https://lifeelogs.netlify.app/)
+- **Tech Stack**:
+  - React
+  - Firebase
+  - Libraries:
+    - React Router DOM
+    - React Icons
+    - Jodit Editor
+    - Firebase
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+LifeLogs is a blogging website and web application built with React, using Firebase for data storage and authentication. It incorporates several helpful libraries, including React Router DOM for navigation, React Icons for iconography, and Jodit Editor for text editing.
+
+Feel free to check it out and start your blogging journey! If you have any questions or feedback, don't hesitate to get in touch.
