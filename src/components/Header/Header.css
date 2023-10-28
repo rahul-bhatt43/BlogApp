@@ -1,0 +1,156 @@
+/* .menus a.active {
+    color: red;
+} */
+
+
+/* by Ai */
+
+/* Navbar container styles */
+nav {
+    background-color: #d1f9f8;
+    color: #fff;
+    padding: 10px 0;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+
+    z-index: 100;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Logo styles */
+.logo img {
+    width: 200px;
+    /* Adjust as needed */
+    height: auto;
+}
+
+.flexCme {
+    display: flex;
+    justify-content: space-between;
+
+    width: 60%;
+}
+
+/* Navigation menu styles */
+.menus a {
+    text-decoration: none;
+    color: #04162e;
+    margin: 0 15px;
+    font-weight: bold;
+
+    font-size: 1.4rem;
+    transition: .3s all ease;
+}
+
+/* Highlight active link */
+.menus a.active {
+    color: crimson;
+}
+
+.menus a:hover {
+    color: crimson;
+}
+
+/* User section styles */
+.user {
+    display: flex;
+    align-items: center;
+}
+
+.loginUser {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+
+.loginUser p {
+    margin: 0 10px;
+    font-weight: bold;
+    color: #04162e;
+    /* Adjust the text color */
+}
+
+.loginUser img {
+    width: 40px;
+    /* Adjust as needed */
+    height: 40px;
+    /* Adjust as needed */
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.btnL {
+    background-color: crimson;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btnL:hover {
+    background-color: rgba(220, 20, 60, 0.763);
+}
+
+.menu-icon {
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+    color: #04162e;
+}
+
+
+@media screen and (max-width:751px) {
+    .menu-icon {
+        display: block;
+    }
+
+    .menus {
+        display: none;
+    }
+
+    .flexCme {
+        position: absolute;
+        /* border: 2px solid black; */
+        flex-direction: column;
+        height: 100vh;
+        width: 72%;
+        top: 86px;
+        right: -100%;
+        justify-content: flex-start;
+        background-color: #d1f9f8;
+        /* right: -25%; */
+        transition: .3s all ease;
+        z-index: 20;
+    }
+
+    .flexCme.active {
+        right: 0;
+    }
+
+    .flexCme .menus {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .flexCme .user {
+        margin-top: 30px;
+        align-items: flex-start;
+        margin-left: 10px;
+    }
+
+}

@@ -1,0 +1,66 @@
+.createBlogPost {
+    background-color: #f4f4f4;
+    padding: 100px 20px;
+}
+
+.cpContainer {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.blogContent {
+    display: grid;
+    grid-gap: 20px;
+    margin-bottom: 10px;
+}
+
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 1.4rem;
+}
+
+.blogContent input[type="text"],
+input[type="file"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 1.2rem;
+}
+
+.blogContent .submitBlog {
+    background-color: #00d722;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 150px;
+    font-size: 1.3rem;
+}
+
+.blogContent .submitBlog:hover {
+    background-color: green;
+}
+
+
+@media (max-width: 768px) {
+    .createBlogPost {
+        padding: 100px 10px;
+    }
+}
