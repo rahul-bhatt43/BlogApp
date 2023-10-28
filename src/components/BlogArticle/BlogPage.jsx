@@ -8,7 +8,6 @@ const BlogPage = () => {
     const { blogid } = useParams();
     const [blogData, setBlogData] = useState(null);
 
-    // Fetch the blog data based on the blogid
     useEffect(() => {
         const fetchBlogData = async () => {
             try {
