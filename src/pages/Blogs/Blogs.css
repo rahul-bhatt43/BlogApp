@@ -22,7 +22,6 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 15px;
   width: 30%;
-  /* For a two-column layout on desktop */
   margin-bottom: 20px;
 
   overflow: hidden;
@@ -87,13 +86,11 @@
   }
   .blogcontainer {
     flex-direction: column;
-    /* Switch to a single column layout on mobile */
 
   }
 
   .card {
     width: 100%;
-    /* Full width on mobile */
     padding: 10px;
     margin-bottom: 10px;
   }
