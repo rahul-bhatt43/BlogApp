@@ -1,11 +1,4 @@
-/* .menus a.active {
-    color: red;
-} */
 
-
-/* by Ai */
-
-/* Navbar container styles */
 nav {
     background-color: #d1f9f8;
     color: #fff;
@@ -42,7 +35,7 @@ nav {
     width: 60%;
 }
 
-/* Navigation menu styles */
+
 .menus a {
     text-decoration: none;
     color: #04162e;
@@ -53,7 +46,7 @@ nav {
     transition: .3s all ease;
 }
 
-/* Highlight active link */
+
 .menus a.active {
     color: crimson;
 }
@@ -83,9 +76,9 @@ nav {
 
 .loginUser img {
     width: 40px;
-    /* Adjust as needed */
+
     height: 40px;
-    /* Adjust as needed */
+
     border-radius: 50%;
     object-fit: cover;
 }
